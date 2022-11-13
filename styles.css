@@ -1,10 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital@1&family=Sacramento&display=swap');
 
+:root {
+    --primary-color: red;
+
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 500px;
+    margin: auto;
+}
+
+/** links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:aliceblue;
+}
+
+.secondary-link {
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
