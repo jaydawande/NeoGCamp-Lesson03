@@ -2,7 +2,9 @@
 
 :root {
     --primary-color: red;
-    --my-color: grey;
+    --grey-color: grey;
+    --off-white: #F3F4F6;
+
 
 }
 
@@ -89,6 +91,25 @@ text-align: right;
 }
 
 .hero .hero-heading {
-    color: var(--my-color);
+    color: var(--grey-color);
     text-align: center;
 }
+
+/** sections **/
+
+.section{
+    padding: 2rem;
+
+}
+
+.section h1 {
+    text-align:center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+
+} 
+
+/** footers **/
